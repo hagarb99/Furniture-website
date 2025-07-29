@@ -1,0 +1,93 @@
+body {
+  background: url('back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000030;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#imageInput {
+  display: none;
+}
+
+.file-upload {
+  margin-top: 10px;
+}
+
+.upload-area {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  color: #555;
+  transition: 0.3s;
+  margin-left: 90px;
+}
+
+.upload-area:hover {
+  background-color: #e0e0e0;
+}
+
+.upload-area span {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.buttons button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #1a1a24;
+}
+
+.post-btn {
+  background-color: #123456;
+  color: white;
+}
+
