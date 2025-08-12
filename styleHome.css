@@ -348,3 +348,8 @@ img{
   background-color: #ddd;
 }
 
+.sign-in-btn a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
